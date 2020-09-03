@@ -1,5 +1,5 @@
 {
-    "name": "laravel-amazonlinux-postgresql",
+    "name": "ec4-amzn-pgsql",
 
     "dockerComposeFile": [
         "../docker-compose.yml"
