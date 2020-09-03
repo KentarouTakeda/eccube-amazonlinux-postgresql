@@ -15,6 +15,7 @@ RUN \
         composer \
         git \
         httpd \
+        nmap-ncat \
         nodejs \
         php \
         php-gd \
