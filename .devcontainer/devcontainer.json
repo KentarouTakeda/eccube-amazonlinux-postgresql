@@ -1,0 +1,31 @@
+{
+    "name": "laravel-amazonlinux-postgresql",
+
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+
+    "service": "php",
+
+    "workspaceFolder": "/var/www",
+
+    "settings": {
+        "editor.renderWhitespace": "boundary",
+        "terminal.integrated.shell.linux": null,
+        "php-cs-fixer.allowRisky": false,
+        "php-cs-fixer.onsave": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "php.suggest.basic": false,
+        "php.validate.enable": false,
+        "intelephense.environment.phpVersion": "7.4.0"
+    },
+
+    "extensions": [
+        "EditorConfig.EditorConfig",
+        "bmewburn.vscode-intelephense-client",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "mblode.twig-language-2",
+        "junstyle.php-cs-fixer"
+    ]
+}
