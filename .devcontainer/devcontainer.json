@@ -26,6 +26,7 @@
         "donjayamanne.githistory",
         "eamodio.gitlens",
         "mblode.twig-language-2",
+        "felixfbecker.php-debug",
         "junstyle.php-cs-fixer"
     ]
 }
