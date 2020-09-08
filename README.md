@@ -14,6 +14,7 @@
 
 > *container $* git clone [ECCUBE-REPO-URL] ./  
 > *container $* composer install  
+> *container $* npm install  
 > *container $* bin/console eccube:install *# 設定項目は全てデフォルトで問題ない*  
 
 ## データベースへの接続
