@@ -10,6 +10,10 @@
     "workspaceFolder": "/var/www",
 
     "settings": {
+        "twig-language-2.indentStyle": "space",
+        "[twig]": {
+            "editor.formatOnSave": true
+        },
         "editor.renderWhitespace": "boundary",
         "terminal.integrated.shell.linux": null,
         "php-cs-fixer.allowRisky": false,
