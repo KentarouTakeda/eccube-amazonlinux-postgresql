@@ -28,6 +28,7 @@ RUN \
         tar \
         unzip \
         util-linux-user \
+        wget \
     && \
     yum update -y
 
