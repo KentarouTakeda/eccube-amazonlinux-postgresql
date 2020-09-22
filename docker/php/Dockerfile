@@ -22,7 +22,6 @@ RUN \
         php-intl \
         php-opcache \
         php-pecl-memcached \
-        php-pecl-xdebug \
         php-pecl-zip \
         php-pgsql \
         tar \
