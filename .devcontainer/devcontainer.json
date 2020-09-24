@@ -11,6 +11,7 @@
 
     "settings": {
         "twig-language-2.indentStyle": "space",
+        "twig-language-2.tabSize": 2,
         "[twig]": {
             "editor.formatOnSave": true
         },
