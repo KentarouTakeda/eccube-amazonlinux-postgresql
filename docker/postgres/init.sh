@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 CONF="/var/lib/postgresql/data/postgresql.conf"
 
