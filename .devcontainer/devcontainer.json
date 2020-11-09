@@ -30,6 +30,7 @@
 
     "extensions": [
         "EditorConfig.EditorConfig",
+        "TheNouillet.symfony-vscode",
         "bmewburn.vscode-intelephense-client",
         "donjayamanne.githistory",
         "eamodio.gitlens",
