@@ -45,7 +45,7 @@
 
 # Symfony単独で起動する場合
 
-## Symfony 3.4最新版 インストール
+## Symfony 3.4最新版 インストール（任意・EC CUBEとの共存は不可）
 
 > *container $* composer create-project symfony/framework-standard-edition:^3.4 . --prefer-source
 
