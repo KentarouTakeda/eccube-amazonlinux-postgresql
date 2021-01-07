@@ -15,6 +15,7 @@ RUN \
         composer \
         git \
         httpd \
+        ipa-gothic-fonts \
         nmap-ncat \
         nodejs \
         php \
