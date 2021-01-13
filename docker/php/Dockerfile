@@ -14,6 +14,7 @@ RUN \
     yum install -y \
         composer \
         git \
+        glibc.i686 \
         httpd \
         ipa-gothic-fonts \
         nmap-ncat \
