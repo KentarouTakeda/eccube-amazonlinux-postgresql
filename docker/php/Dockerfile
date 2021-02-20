@@ -22,10 +22,12 @@ RUN \
         php \
         php-gd \
         php-intl \
+        php-mysqlnd \
         php-opcache \
         php-pecl-memcached \
         php-pecl-zip \
         php-pgsql \
+        php-soap \
         tar \
         unzip \
         util-linux-user \
