@@ -27,7 +27,6 @@ RUN \
         php-intl-7.4.16 \
         php-json-7.4.16 \
         php-mbstring-7.4.16 \
-        php-mysqlnd-7.4.16 \
         php-opcache-7.4.16 \
         php-pdo-7.4.16 \
         php-pecl-memcached \
