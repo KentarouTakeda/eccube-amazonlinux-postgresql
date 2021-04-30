@@ -31,6 +31,7 @@ RUN \
         php-pdo-7.4.16 \
         php-pecl-memcached \
         php-pecl-zip \
+        php-pecl-apcu \
         php-pgsql-7.4.16 \
         php-process-7.4.16 \
         php-soap-7.4.16 \
