@@ -11,6 +11,7 @@ RUN \
     && \
     yum-config-manager --enable remi-php74 && \
     yum-config-manager --setopt="remi-php74.priority=5" --save && \
+    yum update -y && \
     yum install -y \
         composer \
         git \
@@ -39,9 +40,7 @@ RUN \
         tar \
         unzip \
         util-linux-user \
-        wget \
-    && \
-    yum update -y
+        wget
 
 RUN rpm -ivh --nodeps https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 RUN sed -i 's/\$releasever/7/g' /etc/yum.repos.d/pgdg-redhat-all.repo
