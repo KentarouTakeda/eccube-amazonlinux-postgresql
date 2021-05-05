@@ -20,23 +20,23 @@ RUN \
         ipa-gothic-fonts \
         nmap-ncat \
         nodejs \
-        php-7.4.16 \
-        php-cli-7.4.16 \
-        php-common-7.4.16 \
-        php-gd-7.4.16 \
-        php-intl-7.4.16 \
-        php-json-7.4.16 \
-        php-mbstring-7.4.16 \
-        php-opcache-7.4.16 \
-        php-pdo-7.4.16 \
+        php \
+        php-cli \
+        php-common \
+        php-gd \
+        php-intl \
+        php-json \
+        php-mbstring \
+        php-opcache \
+        php-pdo \
         php-pecl-memcached \
         php-pecl-zip \
         php-pecl-apcu \
-        php-pgsql-7.4.16 \
-        php-process-7.4.16 \
-        php-soap-7.4.16 \
-        php-sodium-7.4.16 \
-        php-xml-7.4.16 \
+        php-pgsql \
+        php-process \
+        php-soap \
+        php-sodium \
+        php-xml \
         tar \
         unzip \
         util-linux-user \
