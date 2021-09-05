@@ -11,6 +11,7 @@ RUN \
     && \
     yum-config-manager --enable remi-php74 && \
     yum-config-manager --setopt="remi-php74.priority=5" --save && \
+    yum install --disablerepo=amzn2-core libzstd -y && \
     yum update -y && \
     yum install -y \
         composer \
