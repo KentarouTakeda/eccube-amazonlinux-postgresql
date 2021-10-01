@@ -35,6 +35,7 @@
         "donjayamanne.githistory",
         "eamodio.gitlens",
         "mblode.twig-language-2",
+        "levacic.vscode-phpstan",
         "junstyle.php-cs-fixer"
     ]
 }
