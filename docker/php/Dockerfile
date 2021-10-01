@@ -41,12 +41,11 @@ RUN \
         tar \
         unzip \
         util-linux-user \
-        wget
-
-RUN rpm -ivh --nodeps https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
-RUN sed -i 's/\$releasever/7/g' /etc/yum.repos.d/pgdg-redhat-all.repo
-RUN yum -R 1 install -y postgresql13
-RUN yum clean all
+        wget && \
+    rpm -ivh --nodeps https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm && \
+    sed -i 's/\$releasever/7/g' /etc/yum.repos.d/pgdg-redhat-all.repo && \
+    yum -R 1 install -y postgresql13 && \
+    yum clean all
 
 RUN rm -rf /var/www/*
 ENV PATH $PATH:vendor/bin:node_modules/.bin
