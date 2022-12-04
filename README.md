@@ -1,3 +1,7 @@
+This repository is no longer maintained.
+
+このリポジトリはメンテナンスされていません。
+
 # eccube-amazonlinux-postgresql
 
 ## 接続（ターミナル）
