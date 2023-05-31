@@ -43,7 +43,7 @@ services:
       - POSTGRES_INITDB_ARGS="--locale=ja_JP.utf8"
 
   mail:
-    image: mailhog/mailhog
+    image: axllent/mailpit
     ports:
       - ${PORT_WEB_MAIL:-8025}:8025
 

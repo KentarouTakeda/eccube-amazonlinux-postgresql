@@ -38,12 +38,12 @@ This repository is no longer maintained.
 * PORT_WEB_PHPPGADMIN  
     phpPgAdminの公開ポート
 * PORT_WEB_MAIL  
-    MailHogの公開ポート
+    Mailpitの公開ポート
 
 ## URL
 
  EC CUBE : http://localhost:8000/ （デフォルト設定の場合）  
- MailHog : http://localhost:8025/ （デフォルト設定の場合）  
+ Mailpit : http://localhost:8025/ （デフォルト設定の場合）  
  phpPgAdmin : http://localhost:8432/  （デフォルト設定の場合）  
      ユーザー名 : `postgres` / パスワード : *（入力不要）*
 
@@ -92,6 +92,6 @@ This repository is no longer maintained.
 ## URL
 
 Symfony : http://localhost:8000/ （デフォルト設定の場合）  
-MailHog : http://localhost:8025/ （デフォルト設定の場合）  
+Mailpit : http://localhost:8025/ （デフォルト設定の場合）  
 phpPgAdmin : http://localhost:8432/  （デフォルト設定の場合）  
      ユーザー名 : `postgres` / パスワード : *（入力不要）*
